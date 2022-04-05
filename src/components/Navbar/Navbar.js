@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React, { useEffect, useState } from 'react'
 import './Navbar.css'
 import bars from '../../images/bars-solid.svg'
