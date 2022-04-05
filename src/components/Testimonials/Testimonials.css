@@ -1,0 +1,112 @@
+.Testimonials {
+  width: 100%;
+  background: #2d2e31;
+  padding: 150px 0px;
+}
+.Testimonials__container {
+  width: 70%;
+  margin: auto;
+}
+.testimonials__top {
+  display: flex;
+  align-items: baseline;
+  padding-bottom: 100px;
+}
+.testimonials__title {
+  font-size: 35px;
+}
+.testimonials__subtitle {
+  padding-left: 200px;
+  color: #9797a1;
+}
+.testimonials__card {
+  position: relative;
+  background: #25262a;
+  border-radius: 20px;
+  padding: 50px;
+  filter: drop-shadow(10px 0 20px black);
+}
+.testimonials__rating > p {
+  padding-left: 20px;
+  color: #9797a1;
+}
+.testimonials__rating > img {
+  width: 20px;
+}
+.testimonials__quote {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  width: 50px;
+}
+.testimonials__card__info {
+  width: 70%;
+  padding-top: 20px;
+  line-height: 28px;
+}
+.testimonials__people__container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 100px;
+}
+.testimonials__people {
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid #64f4ae;
+  transition: all 0.2s ease-in;
+}
+.testimonials__people:hover {
+  border-bottom: 2px solid white;
+}
+.testimonials__avatar {
+  border-radius: 50%;
+  margin-right: 15px;
+}
+.testimonials__company {
+  color: #9797a1;
+  padding-top: 5px;
+}
+.testiomnials__company > span {
+  color: #64f4ae;
+}
+@media (max-width: 1024px) {
+  .Testimonials__container {
+    width: 90%;
+  }
+  .testimonials__people__container {
+    gap: 3rem;
+  }
+}
+@media (max-width: 768px) {
+  .testimonials__people__container {
+    width: unset;
+    overflow-x: scroll;
+  }
+  .testimonials__people__container::-webkit-scrollbar {
+    display: none;
+  }
+  .testimonials__people {
+    width: 250px;
+  }
+  .testimonials__people__right {
+    width: 150px;
+  }
+}
+@media (max-width: 460px) {
+  .Testimonials {
+    padding: 100px 20px;
+  }
+  .testimonials__top {
+    flex-direction: column;
+  }
+  .testimonials__subtitle {
+    padding-left: 0;
+    padding-top: 20px;
+  }
+  .testimonials__card {
+    padding: 80px 30px 30px 30px;
+  }
+  .testimonials__card__info {
+    width: 100%;
+  }
+}
