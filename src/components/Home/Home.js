@@ -33,7 +33,7 @@ function Home() {
           </div>
         </div>
         <div className='home__miniInfo' data-aos='fade-up' data-aos-delay='1500'>
-          <p className='info__number'>3</p>
+          <p className='info__number'>2+</p>
           <p className='info__desc'>years experience</p>
           <p className='info__number'>50+</p>
           <p className='info__desc'>projects</p>

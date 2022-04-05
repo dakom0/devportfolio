@@ -67,7 +67,7 @@ function Navbar() {
           </div>
           <a
             onClick={() =>
-              window.open('mailto:damik94@gamil.com?subject=Subject&body=Hello%20Dami', '_blank')
+              window.open('mailto:damik94@gmail.com?subject=Subject&body=Hello%20Dami', '_blank')
             }
             href
             target={'_blank'}
