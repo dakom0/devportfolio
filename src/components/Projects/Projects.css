@@ -38,6 +38,7 @@
   border-bottom: 2px solid white;
 }
 .projects__img {
+  width: 400px;
   margin-bottom: 50px;
   border-radius: 10px;
   filter: drop-shadow(10px 0 20px black);
@@ -101,7 +102,7 @@
     padding: 0 50px 0 70px;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 875px) {
   .Projects__container {
     width: 100%;
     padding: 50px 0 50px 50px;
