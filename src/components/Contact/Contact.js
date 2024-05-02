@@ -15,7 +15,7 @@ function Contact() {
         <div className='contact__right'>
           <p className='contact__right__title'>Information</p>
           <p className='contact__right__address'>Bowie, Maryland</p>
-          <p className='contact__right__address'>Phone: 202-560-1062</p>
+          <p className='contact__right__address'>Phone: 571-430-9959</p>
           <p className='contact__right__email'>damik94@gmail.com</p>
           <ul className='contact__right__ul'>
             <li className='contact__right__links'>

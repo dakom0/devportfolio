@@ -22,7 +22,6 @@ function About() {
               <img src={code} className='card__icon' alt='' />
             </div>
             <p className='card__desc'>I develop front-end with coding super smooth applications</p>
-            <p className='card__link'>50+ projects</p>
           </div>
           <div className='about__card' data-aos='fade-right' data-aos-duration='1000'>
             <div className='card__top'>
@@ -39,7 +38,7 @@ function About() {
         <p className='about__title'>Hello! I'm Dami</p>
         <p className='about__info'>Every great design begin with an even better story</p>
         <p className='about__desc'>
-          Since beginning of my journey as a junior developer nearly 3 years ago, I've done remote
+          Since beginning of my journey as a developer over 3 years ago, I've done remote
           work for agencies, and collaborated with talented people to create digital products for
           both business and consumer use. I'm quietly confident, naturally curious, and perpetually
           working on improving my work one step at a time.

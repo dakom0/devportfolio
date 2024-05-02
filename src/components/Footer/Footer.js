@@ -14,7 +14,7 @@ function Footer() {
         <p className='footer__name'>
           <span>Dami</span> Komolafe
         </p>
-        <p className='footer__copyrights'>© All Rights Reserved 2022</p>
+        <p className='footer__copyrights'>© All Rights Reserved 2024</p>
       </div>
       {/* <div className='footer__socials'>
         <img src={twitter} alt='twitter' className='footer__social__icons' />
